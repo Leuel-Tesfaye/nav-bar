@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
     /* CSS for navigation bar */
+  
     ul.navbar {
       list-style-type: none;
       margin: 0;
@@ -16,6 +17,7 @@
 
     ul.navbar li {
       float: left;
+      font-weight: bold;
     }
 
     ul.navbar li a {
@@ -24,7 +26,7 @@
       border-radius: 10px;
       text-align: center;
       text-decoration: none;
-      color: #3d2323;
+      color: #291313;
       transition: background-color 0.3s ease;
     }
 
@@ -32,6 +34,7 @@
       background-color: #7c7b7b;
       color: #fff;
       border-radius: 5px;
+
       
     }
 
@@ -54,9 +57,4 @@
       width: 100%;
     }
 
-.navbar .logo h1{
-    display: flex;
-    align-items: center;
-    padding: 30px;
-    justify-content: space-between;
-}
+/* 
