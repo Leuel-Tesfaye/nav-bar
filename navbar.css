@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    /* CSS for navigation bar */
+    ul.navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+    }
+
+    ul.navbar li {
+      float: left;
+    }
+
+    ul.navbar li a {
+      display: block;
+      padding: 14px 16px;
+      border-radius: 10px;
+      text-align: center;
+      text-decoration: none;
+      color: #3d2323;
+      transition: background-color 0.3s ease;
+    }
+
+    ul.navbar li a:hover {
+      background-color: #7c7b7b;
+      color: #fff;
+      border-radius: 5px;
+      
+    }
+
+    /* CSS for the trending effect */
+    ul.navbar li a.active {
+      background-color: #4CAF50;
+    }
+
+    /* CSS for the animated underline effect */
+    ul.navbar li a:after {
+      content: '';
+      display: flex;
+      height: 2px;
+      width: 0;
+      background-color: #fff;
+      transition: width 0.3s ease;
+    }
+
+    ul.navbar li a:hover:after {
+      width: 100%;
+    }
+
+.navbar .logo h1{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+}
